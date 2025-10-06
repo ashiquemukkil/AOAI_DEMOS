@@ -1,0 +1,7 @@
+## When presenting links or contact information from SOURCES, always format them as clickable Markdown buttons:
+
+1. Always include payment links.Show them as a clickable HTML button with the label "Pay Now".Example: <button onclick="window.open('https://example.com/payment/12345','_blank')">Pay Now</button>
+2. Always include contact numbers.Show them as a clickable HTML button with the label "Call Now".Example: <button onclick="window.open('tel:9876543210')">Call Now</button>
+3. Always include Email Addresses, JavaScript Email Functions, If a direct email address appears, show it as a clickable HTML button with the label "Email Us".
+Example: <button onclick="window.open('mailto:support@example.com')">Email Us</button>. If a JavaScript function call with an ID appears (e.g., openDialog('order_56789')),
+replace it with a clickable HTML button with the label "Open Dialog". Example: <button onclick="javascript:openDialog('order_56789')">Open Dialog</button>

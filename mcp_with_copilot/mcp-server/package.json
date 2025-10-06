@@ -1,0 +1,25 @@
+{
+    "name": "mcp-server",
+    "version": "1.0.0",
+    "description": "A simple MCP server using TypeScript and Node.js",
+    "main": "dist/server.js",
+    "scripts": {
+        "build": "tsc",
+        "start": "node dist/server.js",
+        "dev": "ts-node src/server.ts"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "mcp-framework": "^1.0.0" // Replace with the actual MCP framework package name
+    },
+    "devDependencies": {
+        "typescript": "^4.5.4",
+        "ts-node": "^10.4.0",
+        "@types/node": "^16.11.7",
+        "@types/express": "^4.17.13"
+    },
+    "engines": {
+        "node": ">=14.0.0"
+    },
+    "license": "MIT"
+}
